@@ -1,0 +1,39 @@
+<!DOCTYPE>
+<html>
+<head>
+<meta charser="UTF-8">
+<title> Web Design & Develpment</title>
+<link href="project.css" rel="stylesheet" type="text/css"
+</head>
+
+<body>
+<form action ="/action_page.php">
+  <div class= "imgcontainer">
+    <img src= "vsuimage.png" alt="Avatar" class="avatar">
+  </div>
+
+  <div class= "containter">
+    <label for = "fname"><b>First Name</b></label>
+    <input type ="text" placeholder="Enter Firstname" name="fname" required>
+    
+
+    <label for="lname"><b>Last Name</b></label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name.." required>
+
+    <label for="email"><b>Email</b></label>
+    <input type="text" id="email" name="mail" placeholder="Your Email.." required>
+    
+    <label for="vnum"><b>V-Number</b></label>
+    <input type="text" id="vnum" name="vnumber" placeholder="Your V-Number.." required>
+
+    <label for="pword"><b>Password</b></label>
+    <input type="password" placeholder="Password" id="password" required>
+        <input type="password" placeholder="Confirm Password" id="confirm_password" required>  
+  </div>
+<button onclick= "location.href = 'Redirect.html';" type="submit">Create Account</button>
+  <div class="containter" style="background-color:#f1f1f1">
+    <button type="button" class="cancelbtn"> Cancel</button>
+</div>
+</form>
+</body>
+</html>
